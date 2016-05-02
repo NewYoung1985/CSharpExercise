@@ -43,8 +43,10 @@ namespace MacExercise
                 new { CompanyName = "Grand Industries", City = "London",Country = "United Kingdom"},
             };
 
-            var aaa = from cust in customers
-                               select new{cust.FirstName,cust.LastName};
+            var aaa = (from a in addresses
+                                join c in customers
+                on a.CompanyName equals c.CompanyName
+                                select new{a.Country,c.FirstName,c.LastName}).ToList();
                 
             foreach (var kkk in aaa)
             {
