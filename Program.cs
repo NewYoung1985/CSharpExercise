@@ -43,11 +43,13 @@ namespace MacExercise
                 new { CompanyName = "Grand Industries", City = "London",Country = "United Kingdom"},
             };
 
-            var aaa = customers.Where(cus => cus.CompanyName.Equals("A Bike Store")).Select(cus => new{FirstName = cus.FirstName,LastName = cus.LastName});
-
+            var aaa = from cust in customers
+                               select new{cust.FirstName,cust.LastName};
+                
             foreach (var kkk in aaa)
             {
-                Console.WriteLine(kkk);
+                Console.WriteLine(kkk.ToString());
+
             }
 
             //test for git hub
