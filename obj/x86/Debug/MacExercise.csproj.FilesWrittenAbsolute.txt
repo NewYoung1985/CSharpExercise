@@ -4,3 +4,8 @@
 /Users/NewYoung/微云同步盘/CSharpExercise/MacExercise/MacExercise/obj/x86/Debug/MacExercise.exe
 /Users/NewYoung/微云同步盘/CSharpExercise/MacExercise/MacExercise/obj/x86/Debug/MacExercise.exe.mdb
 /Users/NewYoung/微云同步盘/CSharpExercise/MacExercise/MacExercise/obj/x86/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/Users/NewYoung/CSharpExercise/CSharpExercise/obj/x86/Debug/.NETFramework,Version=v4.5.1.AssemblyAttribute.cs
+/Users/NewYoung/CSharpExercise/CSharpExercise/bin/Debug/MacExercise.exe.mdb
+/Users/NewYoung/CSharpExercise/CSharpExercise/bin/Debug/MacExercise.exe
+/Users/NewYoung/CSharpExercise/CSharpExercise/obj/x86/Debug/MacExercise.exe
+/Users/NewYoung/CSharpExercise/CSharpExercise/obj/x86/Debug/MacExercise.exe.mdb
