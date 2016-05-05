@@ -3,3 +3,8 @@ F:\快盘\CSharpExercise\MacExercise\MacExercise\bin\Debug\MacExercise.exe
 F:\快盘\CSharpExercise\MacExercise\MacExercise\bin\Debug\MacExercise.pdb
 F:\快盘\CSharpExercise\MacExercise\MacExercise\obj\x86\Debug\MacExercise.csprojResolveAssemblyReference.cache
 F:\快盘\CSharpExercise\MacExercise\MacExercise\obj\x86\Debug\MacExercise.pdb
+E:\CSharpExercise\CSharpExercise\obj\x86\Debug\MacExercise.exe
+E:\CSharpExercise\CSharpExercise\obj\x86\Debug\MacExercise.pdb
+E:\CSharpExercise\CSharpExercise\bin\Debug\MacExercise.exe
+E:\CSharpExercise\CSharpExercise\bin\Debug\MacExercise.pdb
+E:\CSharpExercise\CSharpExercise\obj\x86\Debug\MacExercise.csprojResolveAssemblyReference.cache
