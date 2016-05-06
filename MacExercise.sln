@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MacExercise", "MacExercise.csproj", "{F5FF6344-A772-4C15-83C3-8F685540B8FA}"
 EndProject
 Global
@@ -13,5 +15,8 @@ Global
 		{F5FF6344-A772-4C15-83C3-8F685540B8FA}.Debug|x86.Build.0 = Debug|x86
 		{F5FF6344-A772-4C15-83C3-8F685540B8FA}.Release|x86.ActiveCfg = Release|x86
 		{F5FF6344-A772-4C15-83C3-8F685540B8FA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
