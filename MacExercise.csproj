@@ -37,6 +37,7 @@
   <ItemGroup>
     <Compile Include="Backup.cs" />
     <Compile Include="InheritanceExercise.cs" />
+    <Compile Include="OperatorStruct.cs" />
     <Compile Include="OperatorTraining.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
