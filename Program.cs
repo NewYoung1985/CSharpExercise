@@ -11,13 +11,18 @@ namespace MacExercise
         public static void Main(string[] args)
         {
 
-            OperatorTraining aaa = new OperatorTraining(55);
+            AnyTest c = new AnyTest();
 
-            OperatorTraining bbb = new OperatorTraining(55);
+            int a;
 
-            OperatorTraining ccc = aaa + 5;
+            object b;
 
-            Console.WriteLine(ccc.Value);
+            a = 55;
+
+            b = a;
+
+
+            Console.WriteLine(b);
 
         }
     }
