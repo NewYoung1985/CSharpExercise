@@ -11,18 +11,14 @@ namespace MacExercise
         public static void Main(string[] args)
         {
 
-            AnyTest c = new AnyTest();
+            int m = 10, n = 50;
 
-            int a;
+            Console.WriteLine(n.GetType());
 
-            object b;
-
-            a = 55;
-
-            b = a;
-
-
-            Console.WriteLine(b);
+            for (int i = 0, j = 10; i < j; i++,j--)
+            {
+                Console.WriteLine(i);
+            }
 
         }
     }
