@@ -15,6 +15,7 @@ namespace MacExercise
             get { return this.value; }
         }
 
+
         public OperatorTraining()
         {
 

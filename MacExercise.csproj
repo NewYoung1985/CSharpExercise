@@ -34,6 +34,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Backup.cs" />
+    <Compile Include="AnyTest.cs" />
     <Compile Include="InheritanceExercise.cs" />
     <Compile Include="OperatorStruct.cs" />
     <Compile Include="OperatorTraining.cs" />
