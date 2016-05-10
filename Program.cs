@@ -4,23 +4,22 @@ using System.Linq;
 using System.Collections.Generic;
 
 namespace MacExercise
+
 {
     class MainClass
     {
 
+
+
         public static void Main(string[] args)
         {
 
-            int m = 10, n = 50;
+            AnyTest c = new AnyTest();
 
-            Console.WriteLine(n.GetType());
+            int[] aaa = { 1, 2, 3, 4, 5 };
 
-            for (int i = 0, j = 10; i < j; i++,j--)
-            {
-                Console.WriteLine(i);
-            }
-
-
+            Console.WriteLine(aaa[(int)Season.Winter]);
+            
 
         }
     }
