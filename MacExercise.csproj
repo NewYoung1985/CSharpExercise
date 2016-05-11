@@ -47,6 +47,8 @@
     <Compile Include="IMyInterface.cs" />
     <Compile Include="ClassIDissposable.cs" />
     <Compile Include="Properties\AnyTest.cs" />
+    <Compile Include="INewInterface.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -13,20 +13,9 @@ namespace MacExercise
 
         public static void Main(string[] args)
         {
-            Horse h = new Horse();
-            Whale w = new Whale();
-            Mammal m = new Mammal();
-            Mammal temp;
+            Test a = new Test();
 
-            h.ShowType();
-            w.ShowType();
-            m.ShowType();
 
-            temp = h;
-            temp.ShowType();
-
-            temp = w;
-            temp.ShowType();
 
         }
     }
