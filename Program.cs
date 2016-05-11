@@ -13,25 +13,20 @@ namespace MacExercise
 
         public static void Main(string[] args)
         {
-            
-            int[] aaa = { 1, 2, 3, 4, 5 };
+            Horse h = new Horse();
+            Whale w = new Whale();
+            Mammal m = new Mammal();
+            Mammal temp;
 
-            ArrayList bbb = new ArrayList();
+            h.ShowType();
+            w.ShowType();
+            m.ShowType();
 
-            foreach (int a in aaa)
-            {
-                bbb.Add(a);
-            }
+            temp = h;
+            temp.ShowType();
 
-            foreach (int c in bbb)
-            {
-
-                Console.WriteLine(c);
-            }
-
-            List<int> k = new List<int>();
-
-
+            temp = w;
+            temp.ShowType();
 
         }
     }
