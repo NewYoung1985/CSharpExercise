@@ -28,6 +28,18 @@ namespace MacExercise
         }
 
 
+        public int this[string index]
+        {
+            get
+            {
+                return this.numbers[0];
+            }
+            set
+            {
+                this.numbers[0] = value;
+            }
+        }
+
     }
 }
 

@@ -9,9 +9,22 @@ namespace MacExercise
 {
     enum Season { Spring, Summer, Fall, Winter };
 
-    class AnyTest
+    delegate void GetNames(int arg1,int arg2);
+
+    struct AnyTest
     {
 
+        private int x;
 
+        public int X { get; set; }
+
+        public GetNames nowgetname;
+
+        public void ToDo()
+        {
+            Console.WriteLine(X);
+        }
+        
+        (out int n)=>{n=55;return n;};
     }
 }
