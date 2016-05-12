@@ -2,6 +2,7 @@
 
 namespace MacExercise
 {
+    delegate void TestDelegate();
     public class ClassDelegate
     {
         public ClassDelegate()

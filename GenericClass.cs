@@ -2,32 +2,19 @@
 
 namespace MacExercise
 {
-    public class GenericClass<T>:IMyInterfaceGet<T>,IMyInterfaceSet<T>
+    public class GenericExample<T> where T:IComparable
     {
-        public GenericClass()
+        public GenericExample()
         {
         }
 
-
         private T data;
 
-        #region IMyInterfaceGet implementation
-
-        T IMyInterfaceGet<T>.GetData()
+        public T ReturnData()
         {
             return this.data;
         }
 
-        #endregion
-
-        #region IMyInterfaceSet implementation
-
-        void IMyInterfaceSet<T>.SetData(T data)
-        {
-            this.data = data;
-        }
-
-        #endregion
     }
 }
 

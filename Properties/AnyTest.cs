@@ -7,7 +7,14 @@ using System.Threading.Tasks;
 
 namespace MacExercise
 {
-    enum Season { Spring, Summer, Fall, Winter };
+    enum Season
+    {
+        Spring,
+        Summer,
+        Fall,
+        Winter}
+
+    ;
 
     delegate void GetNames(int arg1,int arg2);
 
@@ -25,6 +32,6 @@ namespace MacExercise
             Console.WriteLine(X);
         }
         
-        (out int n)=>{n=55;return n;};
+       
     }
 }

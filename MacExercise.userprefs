@@ -1,12 +1,11 @@
 ﻿<Properties StartupItem="MacExercise.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ITestInterface.cs">
     <Files>
-      <File FileName="Program.cs" Line="18" Column="1" />
-      <File FileName="INewInterface.cs" Line="7" Column="41" />
-      <File FileName="ArrayExercise.cs" Line="24" Column="14" />
-      <File FileName="IndexClass.cs" Line="1" Column="1" />
-      <File FileName="Test.cs" Line="21" Column="1" />
+      <File FileName="Program.cs" Line="23" Column="13" />
+      <File FileName="INewInterface.cs" Line="4" Column="2" />
+      <File FileName="GenericClass.cs" Line="21" Column="1" />
+      <File FileName="ITestInterface.cs" Line="17" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

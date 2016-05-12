@@ -2,6 +2,8 @@
 
 namespace MacExercise
 {
+    public  delegate int testDelegate();
+
     class Test: INewInterface
     {
         #region INewInterface implementation
